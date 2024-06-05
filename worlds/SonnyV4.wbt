@@ -33,27 +33,29 @@ Viewpoint {
   orientation -0.018745956911824433 -0.017722049634692354 0.9996672036513978 4.655917675739395
   position 0.015267072622161315 2.3944163385515904 1.12224569236043
 }
+# Due to url rewrite of webots-server, the relative path of the images is changed.
+# And need to add a referece to the images from here for the resource loading in webots.
 Background {
   skyColor [
     0.3 0.5 0.9
   ]
   backUrl [
-    "../background/129072673_back.jpg"
+    "./background/129072673_back.jpg"
   ]
   bottomUrl [
-    "../background/129072673_bottom.jpg"
+    "./background/129072673_bottom.jpg"
   ]
   frontUrl [
-    "../background/129072673_front.jpg"
+    "./background/129072673_front.jpg"
   ]
   leftUrl [
-    "../background/129072673_left.jpg"
+    "./background/129072673_left.jpg"
   ]
   rightUrl [
-    "../background/129072673_right.jpg"
+    "./background/129072673_right.jpg"
   ]
   topUrl [
-    "../background/129072673_top.jpg"
+    "./background/129072673_top.jpg"
   ]
 }
 DirectionalLight {

@@ -32,3 +32,14 @@ This means that with `webots-project/controllers/` every user who logs into the 
 
 More information is available in the [Webots User Guide](https://cyberbotics.com/doc/guide/webots-cloud?version=master#publish-cloud-based-simulations).
 For more complex projects and other configurations you can head to the examples repository: [webots.cloud Simulation Examples](https://github.com/cyberbotics/webots-cloud-simulation-examples).
+
+## Because there're large files in the repository, need to use a [Git Large File Storage (LFS)](https://git-lfs.github.com/) compatible client.
+
+### GitHub
+
+You can install the [Git Large File Storage (LFS)](https://git-lfs.github.com/) client on your computer.
+
+* Linux:
+```bash
+sudo apt-get install git-lfs
+```

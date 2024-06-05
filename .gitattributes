@@ -1,2 +1,1 @@
 controllers/webots_interface/webots_interface filter=lfs diff=lfs merge=lfs -text
-controllers/webots_interface/Walk.txt filter=lfs diff=lfs merge=lfs -text

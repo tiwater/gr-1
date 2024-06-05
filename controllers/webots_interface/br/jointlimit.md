@@ -1,0 +1,13 @@
+#joint  maxpos  minpos  maxspeed    maxtorque\    
+left_hip_roll   0.52    -0.08   12.56   82.50\
+left_hip_yaw    0.39    -0.39   12.56   82.50\
+left_hip_pitch  0.69    -1.22   22.44   200.00\
+left_knee_pitch 2.09    -0.08   22.44   200.00\
+left_ankle_pitch    0.34    -0.69   17.45   16.6\
+left_ankle_roll 0.26    -0.26   17.45   16.6\
+right_hip_roll   0.08    -0.52   12.56   82.50\
+right_hip_yaw    0.39    -0.39   12.56   82.50\
+right_hip_pitch  0.69    -1.22   22.44   200.00\
+right_knee_pitch 2.09    -0.08   22.44   200.00\
+right_ankle_pitch    0.34    -0.69   17.45   16.6\
+right_ankle_roll 0.26    -0.26   17.45   16.6\

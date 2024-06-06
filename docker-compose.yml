@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  webots:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - WEBOTS_DEFAULT_IMAGE=$IMAGE
+        - PROJECT_PATH=$PROJECT_PATH
+        - MAKE=$MAKE
+    command: "/usr/local/bin/entrypoint.sh"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities:
+                - gpu
+    environment:
+      - DISPLAY=$DISPLAY
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+      - WEBOTS = $WEBOTS
+    ports:
+      - '$PORT:$PORT'
+      - '$ROCS_PORT:8001'
+    stdin_open: true # docker run -i
+    tty: true # docker run -t
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:ro
+      - /dev/dri:/dev/dri:rw

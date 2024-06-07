@@ -20,7 +20,7 @@ services:
       - DISPLAY=$DISPLAY
       - NVIDIA_VISIBLE_DEVICES=all
       - NVIDIA_DRIVER_CAPABILITIES=all
-      - WEBOTS = $WEBOTS
+      - WEBOTS=$WEBOTS
     ports:
       - '$PORT:$PORT'
       - '$ROCS_PORT:8001'
